@@ -19,7 +19,8 @@ and open the template in the editor.
         <div id="contenedor">
             <div id="titulo"></div>
             <div id="menu"><?php include('menu.php');?></div>
-            <div id="contenido"></div>
+            <div id="contenido"><?php echo "<h2>welcome to hostal rio amazonas</h2>";?></div>
+            <div id="pie"><?php echo "Antonio Varas #666, Fono de contacto: 000000000";?></div>
         </div>
         <?php
         // put your code here

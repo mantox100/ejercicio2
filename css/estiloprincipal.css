@@ -18,19 +18,25 @@ a.submenu{
 }
 #titulo{
     width:100%;
-    height: 80px;
+    height: 150px;
     float: left;
 	background: red;
 }
 #menu{
-    width: 30%;
-    height: 500px;
+    width: 20%;
+    height: 600px;
     float: left;
 	background: green;
 }
 #contenido{
-   width: 70%;
-   height: 500px; 
+   width: 80%;
+   height: 600px; 
    float: left;
    background: yellow;
+}
+#pie{
+   width: 100%;
+   height: 50px; 
+   float: left;
+   background: powderblue;
 }

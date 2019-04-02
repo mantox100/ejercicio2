@@ -20,6 +20,8 @@ and open the template in the editor.
             <div id="contenido"><?php echo "<h2>pagina sin construir</h2>";?></div>
             <div id="pie"><?php echo "Antonio Varas #666, Fono de contacto: 000000000";?></div>
         </div>
-        <?php ;?>
+        <?php
+        // put your code here
+        ?>
     </body>
 </html>
