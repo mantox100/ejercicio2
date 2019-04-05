@@ -12,6 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/estiloprincipal.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
     </head>
     <body>
@@ -22,8 +23,21 @@ and open the template in the editor.
             <div id="contenido"><?php echo "<h2>welcome to hostal rio amazonas</h2>";?></div>
             <div id="pie"><?php echo "Antonio Varas #666, Fono de contacto: 000000000";?></div>
         </div>
-        <?php
-        // put your code here
-        ?>
+            <?php
+            ?>
+
     </body>
+    
+    <script>
+        $("#menusolucitudes").click(function(){
+            
+            if ($("#subvacaciones").css("display")!="none"){
+                $("#subvacaciones").css("display","none");
+            }
+            else{
+                $("#subvacaciones").show();
+                $("#subvacaciones").css("display","block");
+            }
+         });
+    </script>
 </html>
