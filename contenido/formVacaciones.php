@@ -26,7 +26,19 @@ and open the template in the editor.
                             <br>Date check in:<input id="datecheckin" name="datecheckin" type="text">
                             <br>date check out:<input id="datecheckout" name="datecheckout" type="text">
                             <input type="submit" value="Enviar"  >                     
-                        </form></div>
+                        </form>
+                <br>
+                <form  action="../lib/Eliminar.php" method="post">
+                            <div class="form-group"> 
+                                <label class="col-sm-2 control-label">Nombre:</label> 
+<!--                                <div class="col-sm-10">-->
+                                    <input class="form-control input-sm" id="eliminanombre" name="eliminanombre" type="text">
+<!--                                </div>-->
+                           
+                                <input id="btneliminar" type="submit" value="Eliminar"  >   
+                            </div>
+                        </form>
+            </div>
             <div id="pie"><?php echo "Antonio Varas #666, Fono de contacto: 000000000";?></div>
         </div>
         <?php

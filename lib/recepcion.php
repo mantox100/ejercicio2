@@ -7,6 +7,10 @@ echo "<pre>";
 var_dump($_POST);
 echo "</pre>";
 
+echo "<pre>";
+echo "existoosdgfnsdjgndsfds";
+echo "</pre>";
+
 $oReservation= new Reservation($_POST["nombre"],$_POST["email"],
         $_POST["sourceregion"],$_POST["ingles"],$_POST["datecheckin"],
         $_POST["datecheckout"]);
@@ -14,6 +18,9 @@ $oReservation= new Reservation($_POST["nombre"],$_POST["email"],
 //echo "<pre>";
 //var_dump($oReservation);
 //echo "</pre>";
+echo "<pre>";
+var_dump( $_SESSION["aReservation"]);
+echo "</pre>";
 
  if (isset($_SESSION["aReservation"])){
      $arrReservations=$_SESSION["aReservation"]; 
