@@ -18,13 +18,13 @@ and open the template in the editor.
         <div id="contenedor">
             <div id="titulo"></div>
             <div id="menu"><?php include('../menu.php');?></div>
-            <div id="contenido"><form action="../lib/recepcionvacaciones.php" method="post">
+            <div id="contenido"><form action="../lib/recepcion.php" method="post">
                             Nombre: <input id="nombre" name="nombre" type="text">
                             <br>Email: <input id="email" name="email" type="text">
-                            <br>Cargo: <input id="cargo" name="cargo" type="text">
-                            <br>Fecha de inicio:<input id="fechaini" name="fechaini" type="text">
-                            <br>Días totales:<input id="diastotales" name="diastotales" type="text">
-                            <br>Comentario<textarea id="comentario" name="comentario" rows="7" cols=20>   </textarea>
+                            <br>Region Origin: <input id="sourceregion" name="sourceregion" type="text">
+                            <br>Ingles:<input id="ingles" name="ingles" type="text">
+                            <br>Date check in:<input id="datecheckin" name="datecheckin" type="text">
+                            <br>date check out:<input id="datecheckout" name="datecheckout" type="text">
                             <input type="submit" value="Enviar"  >                     
                         </form></div>
             <div id="pie"><?php echo "Antonio Varas #666, Fono de contacto: 000000000";?></div>

@@ -12,6 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link href="../css/estiloprincipal.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <div id="contenedor">
@@ -24,4 +25,9 @@ and open the template in the editor.
         // put your code here
         ?>
     </body>
+    <script>
+        $("#subvacaciones").show();
+        $("#subvacaciones").css("display","block");
+        $("#subvacaciones").addClass("active");
+    </script>
 </html>
